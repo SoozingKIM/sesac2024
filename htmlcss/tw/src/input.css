@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  table.t_green th,
+  table.t_green td {
+    @apply border-green-300;
+  }
+  table.t_blue th,
+  table.t_blue td {
+    @apply border-blue-300;
+  }
+
+  td,
+  th {
+    @apply border border-dotted w-24 p-2;
+  }
+
+  .input_container {
+    @apply mb-3 flex justify-between ;
+  }
+
+  .input_box {
+    @apply border border-blue-300 rounded-sm w-64;
+  }
+}
